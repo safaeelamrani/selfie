@@ -385,13 +385,13 @@ uint64_t SYM_LT           = 24; // <
 uint64_t SYM_LEQ          = 25; // <=
 uint64_t SYM_GT           = 26; // >
 uint64_t SYM_GEQ          = 27; // >=
+uint64_t SYM_SLL          = 28; // <<
+uint64_t SYM_SRL          = 39; // >>
 
 // symbols for bootstrapping
 
-uint64_t SYM_INT      = 28; // int
-uint64_t SYM_CHAR     = 29; // char
-uint64_t SYM_SLL      = 30; // <<
-uint64_t SYM_SRL      = 31; // >>
+uint64_t SYM_INT      = 30; // int
+uint64_t SYM_CHAR     = 31; // char
 uint64_t SYM_UNSIGNED = 32; // unsigned
 
 uint64_t* SYMBOLS; // strings representing symbols
